@@ -16,7 +16,11 @@
 
         | WarAndPeace.txt           |   212.9       |   174.6       |
 
-2. **Word Count and Line Count:**
+2. **Throughput achieved by TCP and UDP is:**
+
+    > 
+
+3. **Word Count and Line Count:**
 
     > 
         |       File Name           |     Tcp       |       Udp     | 
@@ -24,7 +28,7 @@
 
         | DreamDays.txt             | 4175, 41075   | 4175, 41075   |
 
-        | FamilyOfEngineers.txt     |   57.11       |   29.44       |
+        | FamilyOfEngineers.txt     | 4175, 41075   | 4175, 41075   |
 
         | IntroToRobertBrowning.txt | 16176, 113366 | 16176, 113366 |
 
@@ -34,7 +38,7 @@
 
     > There was no Difference in file when done using diff and wc        
 
-3. Test on Test.txt file of size 10KB: 
+4. Test on Test.txt file of size 10KB: 
 
     > 
         |       File Name           |     Tcp       |       Udp     | 
