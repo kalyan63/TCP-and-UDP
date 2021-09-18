@@ -29,6 +29,7 @@ while True:
             while True:
                 line=s.recv(buffer_size)
                 if(line):
+                    # time.sleep(0.01)
                     f.write(line)
                 else:
                     break      

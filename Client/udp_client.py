@@ -24,6 +24,7 @@ with open(f_name,mode='wb') as file:
     while True:
         ready=select.select([s],[],[],wait_time)
         if(ready[0]):
+            # time.sleep(0.01)
             data,addr=s.recvfrom(buffer_size)
             file.write(data)
         else:
