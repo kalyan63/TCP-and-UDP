@@ -3,7 +3,7 @@
 1. **Time Difference in ms:** 
 
     > 
-        |       File Name           |     Tcp       |       Udp     | 
+        |       File Name           |   Tcp         |   Udp         | 
         _____________________________________________________________
 
         | DreamDays.txt             |   58.8        |   24.75       |
@@ -12,13 +12,34 @@
 
         | IntroToRobertBrowning.txt |   44.11       |   40.44       |
 
-        | LifeAndDeath.txt          |   14.56       |   19.12       |
+        | LifeAndDeath.txt          |   14.56       |   12.12       |
 
         | WarAndPeace.txt           |   212.9       |   174.6       |
 
 2. **Throughput achieved by TCP and UDP is:**
 
-    > 
+    > Throughput = Number of bits transferred per unit time. 
+
+    > Here throughput can be calculated by using average throughput acheived by transfering all the files.
+
+    > Throughput in MB/s
+
+        |       File Name           |   Size in KB  |   Tcp Throughput  |   Udp Throughput  | 
+        _____________________________________________________________________________________
+
+        | DreamDays.txt             |   234         |   4.03            |   9.45            |
+
+        | FamilyOfEngineers.txt     |   234         |   4.09            |   7.95            |
+
+        | IntroToRobertBrowning.txt |   699         |   15.84           |   17.29           |
+
+        | LifeAndDeath.txt          |   123         |   8.44            |   10.14           |
+
+        | WarAndPeace.txt           |   3281        |   15.41           |   18.8            |
+
+    > Tcp throughput = 9.56  MB/s
+
+    > Udp throughput = 12.72 MB/s
 
 3. **Word Count and Line Count:**
 
