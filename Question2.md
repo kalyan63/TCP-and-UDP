@@ -88,3 +88,9 @@
 
 5. **Concurrent running of TCP and UDP client:**
 
+    > We can test this by running both tcp and udp server, Then run ConcurrentTcpUdp.py file to run both tcp and udp client to download Test.txt file simultaniously. 
+
+    > This is possible because every packet is identified by Protocol information(Here its Tcp and Udp) along with, 
+    SourceIp, DestinationIp, SourcePort and DestinationPort. 
+
+    > Hence we can run both tcp and udp server with same port number and can server request concurrently. 
