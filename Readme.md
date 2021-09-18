@@ -1,6 +1,5 @@
 ## TCP and UDP server and client
 
-### Answers to problem 3) and 4) is present in Question1.md and Question2.md respectively. 
 > Contents: 
 
     > Sever
